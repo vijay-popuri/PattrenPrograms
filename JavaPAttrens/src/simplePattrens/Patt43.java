@@ -1,7 +1,6 @@
 package simplePattrens;
 
 public class Patt43 {
-
 	public static void main(String[] args) {
 
 		int n = 5;
