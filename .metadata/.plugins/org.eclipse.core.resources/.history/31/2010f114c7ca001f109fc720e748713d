@@ -1,0 +1,12 @@
+package simplePattrens;
+
+public class Patt45 {
+
+	public static void main(String[] args)
+	{
+		int n=4;
+		
+
+	}
+
+}
