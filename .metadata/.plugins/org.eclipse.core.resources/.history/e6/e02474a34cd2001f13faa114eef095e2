@@ -1,0 +1,16 @@
+package LeetcodeProgs;
+
+import java.util.List;
+
+public class ZigZagPattren {
+	
+	public List<Integer> getTheZigZagEles(int a[][]){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
