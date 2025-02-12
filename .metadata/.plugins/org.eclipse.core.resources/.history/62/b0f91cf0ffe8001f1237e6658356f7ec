@@ -1,0 +1,10 @@
+package LeetcodeProgs;
+
+public class VarDemo {
+	
+	public static void main(String[] args) {
+		var a="vijay";
+		System.out.println(a);
+	}
+
+}

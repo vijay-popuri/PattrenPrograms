@@ -1,0 +1,23 @@
+package LeetcodeProgs;
+
+interface Shape{
+	void draw();
+}
+
+class Rectangle implements Shape{
+	public void draw() {
+		System.out.println("hey i am rectangle.");
+	}
+}
+
+class Square implements Shape{
+	
+}
+public class InterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package LeetcodeProgs;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//passing paramaneters to lambdas.
+interface Shape {
+	int add(int a, int b);
+	static String welcome() {
+		return "welcome vijay";
+	}
+	default void print() {
+		System.out.println("hey welcome to BEC.");
+	}
+}
+
+class Abc implements Shape{
+
+	@Override
+	public int add(int a, int b) {
+		// TODO Auto-generated method stub
+		return a+b;
+	}
+	
+}
+
+public class InterfaceDemo {
+
+	public static void main(String[] args) {
+		List<Integer> list=new ArrayList<>();
+		
+	}
+
+}

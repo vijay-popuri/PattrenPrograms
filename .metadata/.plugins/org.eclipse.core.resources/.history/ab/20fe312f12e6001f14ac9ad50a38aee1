@@ -1,0 +1,22 @@
+package LeetcodeProgs;
+//passing paramaneters to lambdas.
+interface Shape {
+	int add(int a, int b);
+	static String welcome() {
+		return "welcome vijay";
+	}
+}
+
+class Abc implements Shape{
+	
+}
+
+public class InterfaceDemo {
+
+	public static void main(String[] args) {
+		Shape sh = (a, b) -> a + b;
+		System.out.println(sh.add(10, 20));
+		System.out.println(Shape.welcome());
+	}
+
+}

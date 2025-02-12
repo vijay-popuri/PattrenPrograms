@@ -1,4 +1,9 @@
 package LeetcodeProgs;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 //passing paramaneters to lambdas.
 interface Shape {
 	int add(int a, int b);
@@ -23,11 +28,14 @@ class Abc implements Shape{
 public class InterfaceDemo {
 
 	public static void main(String[] args) {
-		Shape sh = (a, b) -> a + b;
-		Abc abc=new Abc();
-		abc.print();
-		System.out.println(sh.add(10, 20));
-		System.out.println(Shape.welcome());
+		List<Integer> list = new ArrayList<>();
+		list.add(10);
+		list.add(20);
+		list.add(30);
+		list.add(40);
+
+		List<Integer> list1=list.stream().filter(i -> i > 30).toList();
+		System.out.println(list1);
 	}
 
 }
