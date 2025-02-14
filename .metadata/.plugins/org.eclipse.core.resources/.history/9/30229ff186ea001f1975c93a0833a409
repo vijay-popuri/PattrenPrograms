@@ -1,0 +1,11 @@
+package LeetcodeProgs;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class NumberFormatDemo {
+
+	public static void main(String[] args) {
+		NumberFormat data = NumberFormat.getCompactNumberInstance(Locale.US, NumberFormat.Style.LONG);
+	}
+}

@@ -1,0 +1,17 @@
+package LeetcodeProgs;
+
+public class SwitchDemo {
+	
+	public static void main(String[] args) {
+		String a="vijay";
+		switch(a) {
+		case "vijay", "vijay"->"vijay is here ";
+		case "raju", "raju"->"raju is here";
+		defualt->"other one is present";
+		
+		}
+
+	}
+
+	
+}

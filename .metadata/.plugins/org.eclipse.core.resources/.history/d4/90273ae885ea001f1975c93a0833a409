@@ -1,0 +1,14 @@
+package LeetcodeProgs;
+
+public class SwitchDemo {
+	
+	public static void main(String[] args) {
+		String a="vijay";
+		switch(day) {
+		
+		}
+
+	}
+
+	
+}
