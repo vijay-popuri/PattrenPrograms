@@ -1,0 +1,19 @@
+package threads;
+
+class MyCar implements Runnable{
+
+	@Override
+	public void run() {
+		
+		
+	}
+	
+}
+
+public class ThreadLimitation {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

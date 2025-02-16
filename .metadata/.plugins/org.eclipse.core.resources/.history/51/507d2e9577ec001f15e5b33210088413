@@ -1,0 +1,36 @@
+package threads;
+
+class MyCar implements Runnable{
+
+	@Override
+	public void run() {
+		try {
+			System.out.println(Thread.currentThread().getName()+" is went for the car Parking.");
+			Thread.sleep(5000);
+			System.out.println(Thread.currentThread().getName()+" is get into Car.");
+			Thread.sleep(5000);
+			System.out.println(Thread.currentThread().getName()+" is driving Car.");
+			Thread.sleep(5000);
+			System.out.println(Thread.currentThread().getName()+" is went to Home");
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+	}
+	
+}
+
+public class ThreadLimitation {
+	
+	public static void main(String[] args) {
+		
+		MyCar mc=new MyCar();
+		
+		Thread t1=new Thread();
+		Thread t2= new Thread();
+		Thread t3= new Thread();
+		
+	}
+
+}

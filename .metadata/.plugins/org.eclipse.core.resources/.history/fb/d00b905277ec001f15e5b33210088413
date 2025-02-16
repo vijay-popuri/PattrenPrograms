@@ -1,0 +1,21 @@
+package threads;
+
+class MyCar implements Runnable{
+
+	@Override
+	public void run() {
+		System.out.println(Thread.currentThread().getName()+" is went for the car Parking.");
+		Thread.sleep(5000);
+		
+		
+	}
+	
+}
+
+public class ThreadLimitation {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

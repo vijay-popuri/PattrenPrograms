@@ -10,4 +10,10 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="LeetcodeProgs.NumberFormatDemo"/>
     <fullyQualifiedTypeName name="java.text.NumberFormat.Style"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="threads.Alpha"/>
+    <fullyQualifiedTypeName name="threads.Beta"/>
+    <fullyQualifiedTypeName name="threads.Gama"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package threads;
+
+class MyCar implements Runnable{
+	
+}
+
+public class ThreadLimitation {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
