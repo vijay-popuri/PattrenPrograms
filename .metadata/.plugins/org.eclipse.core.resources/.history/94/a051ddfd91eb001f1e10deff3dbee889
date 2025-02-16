@@ -1,0 +1,10 @@
+package threads;
+
+public class creatingThread {
+	public static void main(String[] args) {
+		Thread th=new Thread();
+		
+		th.sleep(5000);
+	}
+
+}

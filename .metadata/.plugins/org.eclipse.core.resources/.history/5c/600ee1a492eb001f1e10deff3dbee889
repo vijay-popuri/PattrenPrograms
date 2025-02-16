@@ -1,0 +1,18 @@
+package threads;
+
+class Alpha{
+	
+	public void bank() {
+		System.out.println("Enter username:");
+		int a=sc.nextInt();
+		
+	}
+}
+
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

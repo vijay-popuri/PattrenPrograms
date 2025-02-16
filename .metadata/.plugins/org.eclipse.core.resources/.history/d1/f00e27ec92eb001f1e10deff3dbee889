@@ -1,0 +1,33 @@
+package threads;
+
+import java.util.Scanner;
+
+class Alpha{
+	
+	public void bank() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter username:");
+		int a=sc.nextInt();
+		System.out.println("Enter pswd");
+		int b=sc.nextInt();
+		System.out.println("hey my bank work is done");
+		
+	}
+}
+
+class Beta{
+	
+	public void print() {
+		for(int i=0;i<4;i++) {
+			System.out.println("VIJAY".repeat(i));
+		}
+	}
+}
+
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

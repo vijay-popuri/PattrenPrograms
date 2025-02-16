@@ -6,4 +6,8 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="LeetcodeProgs.NumberFormatDemo"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat.Style"/>
 </qualifiedTypeNameHistroy>

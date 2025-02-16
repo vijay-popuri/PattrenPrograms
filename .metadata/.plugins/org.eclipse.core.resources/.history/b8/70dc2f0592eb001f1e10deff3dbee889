@@ -1,0 +1,11 @@
+package threads;
+
+public class creatingThread {
+	public static void main(String[] args) throws InterruptedException {
+		Thread th=new Thread();
+		
+		th.sleep(5000);
+		System.out.println("Hii welcome to ONO");
+	}
+
+}
